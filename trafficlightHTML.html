@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <title>Task 4.2HD - Traffic Lights </title>
+
+</head>
+
+<body>
+    
+    <h1> Traffic Light Control</h1>
+    <br />
+    
+    <form action="http://api.particle.io/v1/devices/PUTYOURDEVICEIDHERE/redled?access_token=PUTYOURACCESSTOKENHERE" method="POST">
+        <br />
+        <input type="radio" name="arg" value="on" />RED ON
+        <br />
+        <input type="radio" name="arg" value="off" />RED OFF
+        <br />
+        <input type="submit" value="Submit" /> 
+    </form>
+    
+    <br />
+    <form action="http://api.particle.io/v1/devices/PUTYOURDEVICEIDHERE/greenled?access_token=PUTYOURACCESSTOKENHERE" method="POST">
+        <br />
+        <input type="radio" name="args" value="on" />GREEN ON
+        <br />
+        <input type="radio" name="args" value="off" />GREEN OFF
+        <br />
+        <input type="submit" value="Submit" /> 
+    </form>
+</body>
+</html>
